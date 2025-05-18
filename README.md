@@ -19,9 +19,11 @@ This repository, maintained by **Md. Umayer Hossain**, is dedicated to learning 
 
 ## Project Details
 
-### `/projects/pei-chart`
+### `/projects/pei-chart` 
 
 A dynamic pie chart project to visualize expenses.  
+👉 [Demo](https://stellar-boba-a7c78b.netlify.app/)
+
 **Files:**
 - `index.html` – Main HTML structure for the pie chart app.
 - `app.js` – JavaScript logic for drawing the pie chart, handling form input, and updating the chart dynamically.
