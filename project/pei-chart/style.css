@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1{
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 100px;
+}
+
+#slice-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin-top: 20px;
+    border: 1px solid #afababb0;
+    padding: 10px;
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+#slice-form input[type="text"], input[type="number"]{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#slice-form input[type="text"]:focus, input[type="number"]:focus{
+    border-color: #007BFF;
+}
+
+#slice-form input[type="text"]::placeholder, input[type="number"]::placeholder{
+    color: #aaa;
+}
+
+
+
+#slice-form input[type="color"]{
+    width: 50px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#slice-form input[type="color"]:focus{
+    background-color: #e9ecef;
+}
+
+#slice-form button{
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.pie-chart-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    gap: 50px;
+}
+
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.legend-label {
+  font-size: 14px;
+}

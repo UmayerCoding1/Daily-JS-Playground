@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pei Chart</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Dynamic pie chart</h1>
+
+    <div class="container">
+      <form id="slice-form">
+        <h2>Add Expense</h2>
+        <input
+          type="text"
+          name="label"
+          id="label"
+          placeholder="Label"
+          required
+        />
+
+        <input
+          type="number"
+          name="value"
+          id="value"
+          placeholder="Value"
+          required
+        />
+
+        <div class="color-picker">
+          <label for="color">Color:</label>
+          <input
+            type="color"
+            name="color"
+            id="color"
+            value="#ff0000"
+            required
+          />
+        </div>
+        <button type="submit">Add Expense</button>
+      </form>
+
+      <div class="chart-containar">
+        <div class="pie-chart-container">
+          <canvas id="pie-chart" width="400" , height="400"> </canvas>
+          <div id="pei-chart-legend"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
