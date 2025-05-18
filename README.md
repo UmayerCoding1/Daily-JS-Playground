@@ -2,6 +2,9 @@
 
 This repository, maintained by **Md. Umayer Hossain**, is dedicated to learning new JavaScript topics every day and building projects to increase my knowledge and practical skills.
 
+**Start Date:** May 18, 2025
+
+
 ## What You'll Find Here
 
 - **Daily Learning:** Each day, I (Md. Umayer Hossain) explore a new JavaScript concept, feature, or best practice.
