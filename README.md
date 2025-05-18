@@ -29,13 +29,7 @@ A dynamic pie chart project to visualize expenses.
 - `app.js` – JavaScript logic for drawing the pie chart, handling form input, and updating the chart dynamically.
 - `style.css` – Styling for the pie chart app.
 
-#### Workflow
 
-1. Open `index.html` in your browser.
-2. Use the form to add a new expense slice by entering a label, value, and color.
-3. On submission, the pie chart updates dynamically to include the new slice.
-4. The legend below the chart shows each slice's label and percentage.
-5. All logic and rendering are handled by `app.js`, and styles are managed in `style.css`.
 
 ## How to Use
 
