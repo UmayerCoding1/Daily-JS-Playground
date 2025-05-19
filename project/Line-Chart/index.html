@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Line Chart</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Line Chart</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <h1>Monthly Sales Data</h1>
+        <div class="chart-container">
+            <svg id="lineChart" width="100%" height="400">
+                <!-- Grid lines will be added by JavaScript -->
+                <g class="grid-lines"></g>
+                <!-- Lines will be added by JavaScript -->
+                <g class="lines"></g>
+                <!-- Points will be added by JavaScript -->
+                <g class="points"></g>
+                <!-- Labels will be added by JavaScript -->
+                <g class="labels"></g>
+            </svg>
+        </div>
+        <div class="legend">
+            <div class="legend-item">
+                <span class="color-box" style="background-color: #4CAF50;"></span>
+                <span>Sales</span>
+            </div>
+            <div class="legend-item">
+                <span class="color-box" style="background-color: #2196F3;"></span>
+                <span>Revenue</span>
+            </div>
+            <div class="legend-item">
+                <span class="color-box" style="background-color: #FFC107;"></span>
+                <span>Profit</span>
+            </div>
+        </div>
+        <div id="tooltip" class="tooltip"></div>
+    </div>
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

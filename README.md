@@ -30,6 +30,105 @@ A dynamic pie chart project to visualize expenses.
 - `style.css` – Styling for the pie chart app.
 
 
+### `/projects/Line-chart` 
+
+# Interactive Line Chart Project
+
+A responsive and interactive line chart visualization built with vanilla JavaScript, HTML, and CSS. This project demonstrates how to create a professional-looking line chart with multiple datasets, interactive features, and responsive design.
+
+## Features
+
+- 📊 Multiple dataset visualization (Sales, Revenue, Profit)
+- 🎨 Clean and modern UI with gradient background
+- 🔍 Interactive tooltips on data points
+- 📱 Fully responsive design
+- 🖱️ Clickable legend to toggle datasets
+- 📈 Dynamic grid lines
+- 🎯 Smooth animations and transitions
+- 📅 Monthly data visualization
+
+## Project Structure
+
+```
+Line-Chart/
+├── index.html      # Main HTML structure
+├── style.css       # Styling and responsive design
+├── app.js          # Chart logic and interactivity
+```
+
+## Technical Details
+
+### Data Structure
+The chart uses a structured data format:
+```javascript
+{
+    months: ['Jan', 'Feb', 'Mar', ...],
+    datasets: [
+        {
+            name: 'Sales',
+            color: '#4CAF50',
+            values: [65, 59, 80, ...]
+        },
+        // More datasets...
+    ]
+}
+```
+
+### Key Features Implementation
+- SVG-based chart rendering
+- Dynamic scaling based on container size
+- Interactive tooltips with data details
+- Responsive grid system
+- Dataset toggling through legend
+- Smooth animations for better UX
+
+## How to Use
+
+1. Clone or download the project
+2. Open `index.html` in a modern web browser
+3. Interact with the chart:
+   - Hover over data points to see detailed information
+   - Click legend items to toggle datasets
+   - Resize the window to see responsive behavior
+
+## Customization
+
+### Adding New Datasets
+To add a new dataset, modify the `data` object in `app.js`:
+```javascript
+datasets: [
+    {
+        name: 'New Dataset',
+        color: '#YOUR_COLOR',
+        values: [/* your values */]
+    }
+]
+```
+
+### Styling
+- Modify colors and dimensions in `style.css`
+- Adjust chart padding and grid lines in `config` object
+- Customize tooltip appearance in CSS
+
+## Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## Dependencies
+
+No external dependencies required. Built with vanilla JavaScript, HTML5, and CSS3.
+
+## Author
+
+Md. Umayer Hossain
+
+## License
+
+This project is open source and available under the MIT License. 
+
 #### Workflow
 
 1. Open `index.html` in your browser.
