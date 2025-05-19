@@ -17,6 +17,51 @@ This repository, maintained by **Md. Umayer Hossain**, is dedicated to learning 
 - `/practice/day-2` - Practice exercises for Day 2
 - `/projects` - JavaScript projects to apply new knowledge
 
+## Project Details
+
+### `/projects/pei-chart` 
+
+A dynamic pie chart project to visualize expenses.  
+👉 [Demo](https://stellar-boba-a7c78b.netlify.app/)
+
+**Files:**
+- `index.html` – Main HTML structure for the pie chart app.
+- `app.js` – JavaScript logic for drawing the pie chart, handling form input, and updating the chart dynamically.
+- `style.css` – Styling for the pie chart app.
+
+
+#### Workflow
+
+1. Open `index.html` in your browser.
+2. Use the form to add a new expense slice by entering a label, value, and color.
+3. On submission, the pie chart updates dynamically to include the new slice.
+4. The legend below the chart shows each slice's label and percentage.
+5. All logic and rendering are handled by `app.js`, and styles are managed in `style.css`.
+
+### Problem Solving Section
+
+This section contains JavaScript problem-solving exercises organized by difficulty levels.
+
+#### Structure
+- `/Problem solving/question` - Contains problem statements and requirements
+- `/Problem solving/Problem solution` - Contains solutions organized by difficulty levels
+  - `01_lavel` - Basic JavaScript problems
+  
+
+#### Sample Problems
+1. Compare Two Numbers
+2. Find Maximum in Array
+3. Filter Products by Price
+4. Capitalize First Letters
+
+Each problem includes:
+- Clear problem statement
+- Specific requirements and constraints
+- Solution implementation
+- Best practices and optimization techniques
+=======
+
+
 ## How to Use
 
 1. Clone the repo:
