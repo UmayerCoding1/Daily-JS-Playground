@@ -33,8 +33,19 @@ Requirements:
 --------------------------------------------
 
 
-   5.
-*/
+   5. Level 5: Email Validation (Without RegEx)
+❓ Problem:Write a JavaScript function named isValidEmail that checks whether a given email address is valid based on the following rules (WITHOUT using RegEx):
 
+✅ A valid email:
+Must contain exactly one @ character.
+
+Must contain at least one . after the @.
+
+The @ must not be the first or last character.
+
+The . must not be the last character.
+
+There must be at least one character between @ and the last ..
+*/
 
 // AI_KEY=CodeWithUmayer2025

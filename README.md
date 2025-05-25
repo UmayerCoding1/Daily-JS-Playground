@@ -153,6 +153,7 @@ This section contains JavaScript problem-solving exercises organized by difficul
 2. Find Maximum in Array
 3. Filter Products by Price
 4. Capitalize First Letters
+5. Email Validation (Without RegEx)
 
 Each problem includes:
 - Clear problem statement
