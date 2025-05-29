@@ -46,6 +46,23 @@ The @ must not be the first or last character.
 The . must not be the last character.
 
 There must be at least one character between @ and the last ..
+
+
+
+
+
+  .Level 6: Problem: Find the Most Frequent Element
+    -Example 1 : mostFrequentElement([1, 3, 2, 1, 4, 1, 3, 3, 3]) // Output: 1
+    -Example 2 : mostFrequentElement(['apple', 'banana', 'apple', 'orange', 'banana', 'banana'])// Output: 'banana'
+
+    ✅ Constraints:
+           You cannot use any third-party libraries like lodash.
+
+           You must return the first most frequent if there's a tie.
+
+           Try to keep it efficient (O(n) time is best).
+
+
 */
 
 // AI_KEY=CodeWithUmayer2025
