@@ -63,6 +63,13 @@ There must be at least one character between @ and the last ..
            Try to keep it efficient (O(n) time is best).
 
 
+   .Lavel 7:  First Non-Repeating Character
+    Problem Description:
+      Write a function firstNonRepeatingChar(str) that takes a string and returns the first character that doesn’t repeat anywhere in the string.If no such character exists, return null.
+  
+        Problem Description:
+               Write a function firstNonRepeatingChar(str) that takes a string and returns the first character that doesn’t repeat anywhere in the string.
+               If no such character exists, return null.
 */
 
 // AI_KEY=CodeWithUmayer2025
