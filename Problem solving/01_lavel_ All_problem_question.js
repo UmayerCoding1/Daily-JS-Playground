@@ -70,6 +70,18 @@ There must be at least one character between @ and the last ..
         Problem Description:
                Write a function firstNonRepeatingChar(str) that takes a string and returns the first character that doesn’t repeat anywhere in the string.
                If no such character exists, return null.
+
+
+
+
+
+   lavel-8 : Frequency Counter of Characters
+
+   Problem Description:
+   Write a function called charFrequency that takes a string as input and returns an object where the keys are the characters and the values are the number of times they appear in the string. Ignore spaces and make it case-insensitive.
 */
+
+
+ 
 
 // AI_KEY=CodeWithUmayer2025
