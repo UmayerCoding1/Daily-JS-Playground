@@ -8,6 +8,7 @@ const createCounter = (n) => {
 }
 
 const counter = createCounter(5);
-console.log(counter()); 
-console.log(counter());
+console.log(counter()); // 5
+console.log(counter()); // 6
+console.log(counter()); // 7
 
