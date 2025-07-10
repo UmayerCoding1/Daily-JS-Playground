@@ -79,9 +79,16 @@ There must be at least one character between @ and the last ..
 
    Problem Description:
    Write a function called charFrequency that takes a string as input and returns an object where the keys are the characters and the values are the number of times they appear in the string. Ignore spaces and make it case-insensitive.
+
+
+
+   problem-9 : Given an integer n, return a counter function. This counter function initially returns n and then returns 1 more than the previous value every subsequent time it is called (n, n + 1, n + 2, etc)
+    OUTPUT: 
+    const counter = createCounter(5);
+        console.log(counter()); // 5
+        console.log(counter()); // 6
+        console.log(counter()); // 7
+        console.log(counter()); // 8
 */
-
-
- 
 
 // AI_KEY=CodeWithUmayer2025
