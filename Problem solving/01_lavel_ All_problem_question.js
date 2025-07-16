@@ -89,6 +89,51 @@ There must be at least one character between @ and the last ..
         console.log(counter()); // 6
         console.log(counter()); // 7
         console.log(counter()); // 8
+
+
+
+ .Problem-10 =>  Practice Problem: Countdown Timer with Sleep
+🔻 Problem Statement:
+
+Write an asynchronous function countdown(n) that:
+
+Takes a positive integer n
+
+Prints numbers from n to 1 (1 second apart)
+
+Finally prints "Go!"
+
+Use your previously created sleep(millis) function inside countdown.
+
+
+
+
+
+11: Problem: Repeat Function with Delay
+🔻 Problem Statement:
+
+Write an asynchronous function repeatMessage(message, times, delay) that:
+
+Takes a message (string), times (number), and delay (milliseconds)
+
+Prints the message exactly times times
+
+Each message should be printed with a delay of delay milliseconds
+
+
+
+12:  Problem: Typewriter Effect Simulation
+🔻 Problem Statement:
+
+Write an asynchronous function typewriter(text, delay) that:
+
+Takes a text string and a delay in milliseconds.
+
+Prints one character of the text at a time (just like a typewriter).
+
+Each character appears after delay milliseconds.
+
+Finally, after the full text is printed, it prints a new line: "Typing complete!"
 */
 
 // AI_KEY=CodeWithUmayer2025
